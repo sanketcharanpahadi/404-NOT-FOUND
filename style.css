@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .header {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 1.5rem;
+    margin-left: 1.2rem;
+    font-size: 21px;
+}
+
+.scarecrow-img {
+    width: 250px;
+    display: block;
+    margin: 70px auto;
+}
+
+.about-page .para-header {
+    font-family: 'Space Mono', monospace;   
+    text-align: left;
+    font-size: 2.8125rem;
+    margin-left: 1.2rem;
+    margin-bottom: 2.1rem;
+}
+
+.about-page .para-page {
+    font-family: 'Space Mono', monospace;
+    margin-left: 1.2rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 3.5rem;
+    color:#4F4F4F;
+}
+
+.about-page .btn-home {
+    font-family: 'Space Mono', monospace;
+    color: #FFFFFF;
+    background: #333333;
+    padding: 15px 45px;
+    margin-left: 1.2rem;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 9rem;
+}
+
+footer .attribution {
+     font-size: 14px;
+     margin-left: 46px;
+     text-decoration: none;
+}
+
+@media (min-width: 768px) {
+     
+    header .header {
+        margin-left: 5rem;
+        margin-top: 2rem;
+        font-size: 24px;
+    }
+    
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 80%;
+        margin-left: 5rem;
+        gap: 3.9rem;
+
+    }
+
+    .scarecrow-img {
+        width: 600px;
+    }
+
+    .about-page {
+        margin-top: 110px;
+    }
+
+    .about-page .para-header {
+        font-size: 64px;
+        margin-bottom: 68px;
+        line-height: 94px;
+    }
+
+    .about-page .para-page {
+        font-size: 27px;
+        margin-bottom: 70px;
+    }
+
+    .about-page .btn-home{
+        font-size: 14px;
+        padding: 25px 60px;
+    }
+
+    footer .attribution{
+        text-align: center;
+        font-size: 16px;
+    }
+}
